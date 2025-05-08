@@ -1,0 +1,13 @@
+name: Tag trigger
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo tag
+        run: echo tag

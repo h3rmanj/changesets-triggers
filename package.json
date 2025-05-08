@@ -1,0 +1,14 @@
+{
+  "name": "changesets-triggers",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "echo \"publishing\"",
+    "change": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.3"
+  }
+}
