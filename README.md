@@ -29,7 +29,7 @@ For the next section, I'll test variations of token inputs given to the workflow
 
 | Variation                    | `push.branches` | `push.tags` | `pull_request.created` | `pull_requests.synchronized` | `release.published` |
 | :--------------------------- | :-------------: | :---------: | :--------------------: | :--------------------------: | :-----------------: |
-| Built-in token               |                 |             |                        |                              |                     |
+| Built-in token               |       ❌        |     ❌      |           ❌           |              ❌              |         ❌          |
 | PAT                          |                 |             |                        |                              |                     |
 | PAT + `github-api`           |                 |             |                        |                              |                     |
 | PAT + `actions/checkout` PAT |                 |             |                        |                              |                     |

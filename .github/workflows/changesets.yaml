@@ -34,6 +34,6 @@ jobs:
           publish: npm run release
           commitMode: github-api
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
           # This is a dummy value, as the NPM_TOKEN is not used in this workflow
           NPM_TOKEN: dummy_value
