@@ -1,5 +1,12 @@
 # pkg-b
 
+## 6.0.0
+
+### Major Changes
+
+- 725b912: prepare custom checkout token test
+- 74398af: add second checkout change
+
 ## 5.0.0
 
 ### Major Changes
