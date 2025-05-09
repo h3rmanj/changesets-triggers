@@ -1,5 +1,18 @@
 # pkg-a
 
+## 6.0.0
+
+### Major Changes
+
+- 725b912: prepare custom checkout token test
+- 74398af: add second checkout change
+
+### Patch Changes
+
+- Updated dependencies [725b912]
+- Updated dependencies [74398af]
+  - pkg-b@6.0.0
+
 ## 5.0.0
 
 ### Major Changes
