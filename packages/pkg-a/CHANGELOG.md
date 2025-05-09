@@ -1,5 +1,18 @@
 # pkg-a
 
+## 3.0.0
+
+### Major Changes
+
+- 4abb27c: add second change for pr update
+- a98e028: prepare built-in first test
+
+### Patch Changes
+
+- Updated dependencies [4abb27c]
+- Updated dependencies [a98e028]
+  - pkg-b@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

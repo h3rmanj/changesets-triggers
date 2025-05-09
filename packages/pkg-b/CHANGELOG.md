@@ -1,5 +1,12 @@
 # pkg-b
 
+## 3.0.0
+
+### Major Changes
+
+- 4abb27c: add second change for pr update
+- a98e028: prepare built-in first test
+
 ## 2.0.0
 
 ### Major Changes
