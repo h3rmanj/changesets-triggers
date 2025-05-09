@@ -1,0 +1,13 @@
+name: Release trigger
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo release action
+        run: echo release

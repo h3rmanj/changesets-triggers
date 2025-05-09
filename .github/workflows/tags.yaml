@@ -1,13 +1,15 @@
-name: Tag trigger
+name: Push trigger
 
 on:
   push:
     tags:
       - "*"
+    branches:
+      - "changeset-release/*"
 
 jobs:
-  tag:
+  push:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo tag
-        run: echo tag
+      - name: Echo ref
+        run: echo ${{ github.event.ref }}

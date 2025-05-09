@@ -1,0 +1,11 @@
+name: Pull Requests trigger
+
+on:
+  pull_request:
+
+jobs:
+  pull_request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo pull request action
+        run: echo ${{ github.event.action }}
