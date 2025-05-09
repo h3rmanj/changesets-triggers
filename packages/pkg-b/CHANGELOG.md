@@ -1,5 +1,12 @@
 # pkg-b
 
+## 3.0.0
+
+### Major Changes
+
+- 42fb81a: add second change for PR synchronize
+- a98e028: prepare built-in first test
+
 ## 2.0.0
 
 ### Major Changes
