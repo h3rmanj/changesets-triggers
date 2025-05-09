@@ -32,4 +32,4 @@ For the next section, I'll test variations of token inputs given to the workflow
 | Built-in token               |       ❌        |     ❌      |          ❌           |             ❌              |         ❌          |
 | PAT                          |       ❌        |     ❌      |          ✅           |             ❌              |         ✅          |
 | PAT + `github-api`           |       ✅        |     ✅      |          ✅           |   ❌ `re-triggers opened`   |         ✅          |
-| PAT + `actions/checkout` PAT |                 |             |                       |                             |                     |
+| PAT + `actions/checkout` PAT |       ✅        |     ✅      |          ✅           |             ✅              |         ✅          |
