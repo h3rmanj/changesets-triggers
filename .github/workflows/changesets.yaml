@@ -33,6 +33,6 @@ jobs:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: npm run release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
           # This is a dummy value, as the NPM_TOKEN is not used in this workflow
           NPM_TOKEN: dummy_value
