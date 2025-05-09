@@ -1,5 +1,18 @@
 # pkg-a
 
+## 5.0.0
+
+### Major Changes
+
+- 1c73f32: prepare commitMode: github-api test
+- a2df3b7: add second change for github-api test
+
+### Patch Changes
+
+- Updated dependencies [1c73f32]
+- Updated dependencies [a2df3b7]
+  - pkg-b@5.0.0
+
 ## 4.0.0
 
 ### Major Changes
