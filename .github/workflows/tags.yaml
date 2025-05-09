@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo ref
-        run: echo ${{ github.event.ref }}
+        run: echo ${{ github.ref_type}}
