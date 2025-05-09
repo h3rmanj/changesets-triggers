@@ -11,6 +11,9 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -31,6 +34,6 @@ jobs:
           publish: npm run release
           commitMode: github-api
         env:
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # This is a dummy value, as the NPM_TOKEN is not used in this workflow
           NPM_TOKEN: dummy_value
