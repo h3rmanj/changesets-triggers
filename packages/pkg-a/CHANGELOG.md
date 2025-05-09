@@ -1,5 +1,16 @@
 # pkg-a
 
+## 4.0.0
+
+### Major Changes
+
+- 5573ecc: prepare PAT test
+
+### Patch Changes
+
+- Updated dependencies [5573ecc]
+  - pkg-b@4.0.0
+
 ## 3.0.0
 
 ### Major Changes

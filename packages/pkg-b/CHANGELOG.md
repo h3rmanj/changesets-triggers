@@ -1,5 +1,11 @@
 # pkg-b
 
+## 4.0.0
+
+### Major Changes
+
+- 5573ecc: prepare PAT test
+
 ## 3.0.0
 
 ### Major Changes
