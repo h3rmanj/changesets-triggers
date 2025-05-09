@@ -1,5 +1,18 @@
 # pkg-a
 
+## 4.0.0
+
+### Major Changes
+
+- e9d632e: add second change for PAt
+- b886b07: Prepare PAT test
+
+### Patch Changes
+
+- Updated dependencies [e9d632e]
+- Updated dependencies [b886b07]
+  - pkg-b@4.0.0
+
 ## 3.0.0
 
 ### Major Changes
