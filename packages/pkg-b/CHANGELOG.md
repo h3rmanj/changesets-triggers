@@ -1,5 +1,11 @@
 # pkg-b
 
+## 7.0.0
+
+### Major Changes
+
+- 1c0c0d8: test target_commitish with git-cli
+
 ## 6.0.0
 
 ### Major Changes

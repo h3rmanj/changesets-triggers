@@ -1,5 +1,16 @@
 # pkg-a
 
+## 7.0.0
+
+### Major Changes
+
+- 1c0c0d8: test target_commitish with git-cli
+
+### Patch Changes
+
+- Updated dependencies [1c0c0d8]
+  - pkg-b@7.0.0
+
 ## 6.0.0
 
 ### Major Changes
