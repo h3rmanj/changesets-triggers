@@ -33,3 +33,9 @@ For the next section, I'll test variations of token inputs given to the workflow
 | PAT                          |       ❌        |     ❌      |          ✅           |               ❌                |         ✅          |
 | PAT + `github-api`           |       ✅        |     ✅      |          ✅           | ❌ re-triggers `opened` instead |         ✅          |
 | PAT + `actions/checkout` PAT |       ✅        |     ✅      |          ✅           |               ✅                |         ✅          |
+
+## Tags through releases
+
+`v7.0.0` will create tag with release in `git-cli` mode, to verify providing `target_commitish` doesn't cause any weird side-effects when tag already exists.
+
+`v8.0.0` will create a tag with release in `github-api` mode.
