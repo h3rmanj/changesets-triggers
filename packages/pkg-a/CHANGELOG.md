@@ -1,5 +1,16 @@
 # pkg-a
 
+## 8.0.0
+
+### Major Changes
+
+- 34a519b: create tags through releases with github-api mode
+
+### Patch Changes
+
+- Updated dependencies [34a519b]
+  - pkg-b@8.0.0
+
 ## 7.0.0
 
 ### Major Changes
