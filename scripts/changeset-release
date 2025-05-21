@@ -1,3 +1,4 @@
+#!/bin/bash
 # Get the current version
 PACKAGE_VERSION=$(jq '.version' --raw-output .packages/pkg-a/package.json)
 
