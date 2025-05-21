@@ -39,3 +39,9 @@ For the next section, I'll test variations of token inputs given to the workflow
 `v7.0.0` will create tag with release in `git-cli` mode, to verify providing `target_commitish` doesn't cause any weird side-effects when tag already exists.
 
 `v8.0.0` will create a tag with release in `github-api` mode.
+
+## Tags fixes
+
+`v9.0.0` `createGithubRelease: false` should create a tag, but not a release.
+
+`v10.0.0` will pretend to push a tag, this should not fail, and a tag will be created implicitly through release api.
