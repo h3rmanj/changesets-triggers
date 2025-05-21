@@ -1,5 +1,11 @@
 # pkg-b
 
+## 10.0.0
+
+### Major Changes
+
+- 9e56502: custom release script which do not tag
+
 ## 9.0.0
 
 ### Major Changes

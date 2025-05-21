@@ -1,5 +1,16 @@
 # pkg-a
 
+## 10.0.0
+
+### Major Changes
+
+- 9e56502: custom release script which do not tag
+
+### Patch Changes
+
+- Updated dependencies [9e56502]
+  - pkg-b@10.0.0
+
 ## 9.0.0
 
 ### Major Changes
