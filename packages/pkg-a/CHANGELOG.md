@@ -1,5 +1,16 @@
 # pkg-a
 
+## 9.0.0
+
+### Major Changes
+
+- 3f6920e: create tag, not release
+
+### Patch Changes
+
+- Updated dependencies [3f6920e]
+  - pkg-b@9.0.0
+
 ## 8.0.0
 
 ### Major Changes
