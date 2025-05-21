@@ -30,9 +30,8 @@ jobs:
         uses: h3rmanj/changesets-action@fix/tags-release
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: npm run release
+          publish: scripts/changeset-release
           commitMode: git-cli
-          createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
           # This is a dummy value, as the NPM_TOKEN is not used in this workflow
