@@ -1,10 +1,10 @@
 {
   "name": "pkg-a",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "private": true,
   "type": "commonjs",
   "main": "index.js",
   "dependencies": {
-    "pkg-b": "8.0.0"
+    "pkg-b": "9.0.0"
   }
 }

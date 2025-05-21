@@ -1,5 +1,11 @@
 # pkg-b
 
+## 9.0.0
+
+### Major Changes
+
+- 3f6920e: create tag, not release
+
 ## 8.0.0
 
 ### Major Changes
